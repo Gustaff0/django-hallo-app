@@ -1,6 +1,6 @@
 # django-hallo-app
 
 Чтобы запустить сервер выполните
-'''bash
+' ' 'bash
 ./manage.py runserver
-'''
+' ' '
