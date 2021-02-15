@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+<h1>Create Math calculate</h1>
+<form action="/math/new" method="post">
+    {% csrf_token %}
+    <label>F_num</label>:</label><br/>
+    <input type="number" name="f_num"/><br/>
+    <label>S_num:</label><br/>
+    <input type="number" name="s_num"></input><br/>
+    <p><input name="math" type="radio" value="add"> Add</p>
+    <p><input name="math" type="radio" value="subtract"> Subtract</p>
+    <p><input name="math" type="radio" value="multiply"> Multiply</p>
+    <p><input name="math" type="radio" value="divide" checked> Divide</p>
+    <input type="submit" value="Send"/>
+</form>
+</body>
+</html>
